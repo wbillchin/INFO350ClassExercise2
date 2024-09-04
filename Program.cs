@@ -99,6 +99,12 @@ namespace MyApp
             // performs math
             total = firstValue + secondValue;
 
+            // full set of operators
+            // https://learn.microsoft.com/en-us/cpp/c-language/c-operators?view=msvc-170
+
+            // operator precedence
+            // https://learn.microsoft.com/en-us/cpp/c-language/precedence-and-order-of-evaluation?view=msvc-170
+
             // And write it out to console like this:
             Console.WriteLine("The total is " + total);
 
