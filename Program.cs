@@ -97,7 +97,9 @@ namespace MyApp
 
             // note that the rvalue expression here has an operator that
             // performs math
-            total = firstValue + secondValue;
+            total = firstValue % secondValue;
+
+            // try out +, -, *, /, %
 
             // full set of operators
             // https://learn.microsoft.com/en-us/cpp/c-language/c-operators?view=msvc-170
